@@ -19,8 +19,7 @@ Or install it yourself as:
 ## Usage
 
 1. Add a state column to your model and migrate your database
-2. In your model add the line 'include RhodeIsland'
-3. Add a STATES constant in your model that is an array of states as strings
+2. In your model add the line 'has_state_machine %w(array of your states)'
 
 
 ## Contributing
